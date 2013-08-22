@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -rlv --checksum _site/ reidransom@reidransom.webfactional.com:webapps/reidransom_blog/

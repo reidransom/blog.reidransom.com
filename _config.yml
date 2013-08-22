@@ -1,0 +1,8 @@
+name: Reid Ransom
+description: The blog of Reid Ransom
+url: http://blog.reidransom.com
+markdown: redcarpet
+pygments: true
+sass:
+    syntax: scss # scss|sass
+    style: compressed # nested|expanded|compact|compressed

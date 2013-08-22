@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+          <div class="site">
+            <div class="header">
+              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+              <a class="extra" href="/">home</a>
+              <a class="extra" href="/feed.xml">subscribe</a>
+            </div>
+
+                {{ content }}
+
+            <div class="footer">
+              <div class="contact">
+                <p>
+                  Reid Ransom<br />
+                  <a href="http://github.com/reidransom/">github.com/reidransom</a><br />
+                  <a href="http://twitter.com/reidransom/">twitter.com/reidransom</a><br />
+                </p>
+              </div>
+              <div class="contact">
+                <p>
+                  Founder of <a href="http://electricpond.io/">Electric Pond</a><br />
+                  reid@electricpond.io<br />
+                </p>
+              </div>
+              <div class="contact">
+                <p>
+                  Editor at <a href="http://b2plus.tv/">B2+</a><br />
+                  reid@b2plus.tv
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /container -->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-43258138-1', 'reidransom.com');
+      ga('send', 'pageview');
+    </script>
+
+    </body>
+</html>
