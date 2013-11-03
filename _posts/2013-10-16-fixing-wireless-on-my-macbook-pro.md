@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fixing Wireless on My MacBook Pro"
-date:   2013-08-21 22:00:00
+date:   2013-10-16 22:00:00
 tags:   reidransom osx
 ---
 
